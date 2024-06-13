@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  height: 100vh; 
+  margin: 0; 
+  background-color: rgb(226, 226, 226);
+}
+
+header h1 {
+  font-size: 50px; 
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center; 
+  margin-top: 20px; }
+
+  .gradient-input {
+    background: linear-gradient(45deg, #8A2BE2, #9400D3); 
+    color: #ffffff; 
+    padding: 12px; 
+    border: none;
+    border-radius: 8px; 
+    font-size: 16px; 
+    font-weight: 500; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-left: 20px;
+}
+
+.gradient-input {
+  background: linear-gradient(45deg, #8A2BE2, #9400D3);
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  width: 300px;
+}
+
+.inputDiv {
+  display: flex;
+  align-items: left;
+  margin: 10px;
+}
+
+.gradient-label {
+  background: linear-gradient(45deg, #8A2BE2, #9400D3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px; 
+}
+
+.buttonRez{
+  background: linear-gradient(45deg, #8A2BE2, #9400D3);
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  width: 300px;
+}
+
+.gradientRez{
+  background: linear-gradient(45deg, #8A2BE2, #9400D3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px; 
+  margin-left: 200px;
+}
+
